@@ -1,0 +1,2383 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver Causas de la Revolución */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver los Estados Generales */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver Asamblea Nacional */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver toma de la bastilla*/
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+/* A continuacion vamos a ver la declaracion de los derechos del hombre y del ciudadano*/
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver el reinado del terror*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver el directorio*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* A continuacion vamos a ver el consulado*/
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* A continuacion vamos a ver Consecuencias de la Revolución */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #540b2e; /* Color header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+header .logo img {
+    max-height: 80px;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+nav.menu {
+    background-color: #333; /* Color menú */
+    color: white;
+    width: 200px;
+    padding: 20px;
+}
+
+nav.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav.menu li {
+    margin-bottom: 10px;
+}
+
+nav.menu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+nav.menu a:hover {
+    background-color: #7a2849; /* Color hover menú */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #444;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+main.examen {
+    background-color: #f9e79f; /* Color fondo examen */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.acumulativo {
+    background-color: #a9d18e; /* Color fondo acumulativo */
+    padding: 20px;
+    flex-grow: 1;
+}
+
+main.login-main {
+    background-color: #f4f4f4;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.login-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #540b2e;
+}
+
+.login-form div {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-form button {
+    background-color: #540b2e; /* Color botón login */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.login-form button:hover {
+    background-color: #7a2849; /* Color hover botón login */
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.justificado {
+    text-align: justify;
+}
+
+.contenido h2, .contenido h3 {
+    color: #540b2e; /* Color títulos */
+}
+
+h2 {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: #540b2e; /* Color footer */
+ 
+}
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #2e8fcf;
+    padding: 8px;
+    text-align: left;
+}
+
+thead th {
+    background-color: #c0da31;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #dd9c3b;
+}
+
+.contenedor-principal {
+    display: flex; /* Habilita Flexbox para los elementos internos */
+    align-items: flex-start; /* Alinea los ítems al inicio del contenedor (arriba) */
+    gap: 30px; /* Espacio entre la imagen y el texto */
+    max-width: 900px; /* Ancho máximo del contenedor */
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.imagen-izquierda {
+    flex: 10px; /* Permite que la imagen ocupe espacio flexible */
+    min-width: 250px; /* Ancho mínimo para la imagen */
+    max-width: 400px; /* Ancho máximo para la imagen */
+}
+
+.imagen-izquierda img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Elimina el espacio extra debajo de la imagen */
+    border-radius: 20px;
+}
+
+.texto-derecha {
+    flex: 3; /* Permite que el texto ocupe más espacio flexible (el doble que la imagen) */
+    color: #333;
+    line-height: 1.6;
+}
+
+.texto-derecha h2 {
+    color: #0056b3;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.texto-derecha p {
+    margin-bottom: 10px;
+}
+
+/* Media Queries para hacer el diseño responsivo en pantallas pequeñas */
+@media (max-width: 768px) {
+    .contenedor-principal {
+        flex-direction: column; /* Apila los elementos verticalmente en pantallas pequeñas */
+        align-items: center; /* Centra los elementos apilados */
+        text-align: center; /* Centra el texto */
+    }
+
+    .imagen-izquierda,
+    .texto-derecha {
+        flex: unset; /* Reinicia el flex para que no tomen espacio flexible */
+        width: 100%; /* Ocupan todo el ancho disponible */
+        max-width: 100%;
+        min-width: unset;
+    }
+
+    .imagen-izquierda img {
+        margin-bottom: 20px; /* Espacio entre la imagen y el texto cuando están apilados */
+    }
+}
+
+
+.timeline-container {
+    max-width: 700px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #0d47a1; /* Azul oscuro */
+    margin-bottom: 40px;
+    font-size: 2.8em;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.08);
+}
+
+.timeline {
+    position: relative;
+    padding: 20px 0;
+    list-style: none;
+}
+
+/* Línea central de la línea de tiempo */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background-color: #64b5f6; /* Azul medio */
+    left: 50%;
+    margin-left: -2px;
+    border-radius: 2px;
+}
+
+.timeline-item {
+    padding: 10px 0;
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.timeline-item:nth-child(even) {
+    left: 50%; /* Alterna los elementos a la derecha */
+    padding-left: 30px;
+}
+
+.timeline-item:nth-child(odd) {
+    left: 0; /* Alterna los elementos a la izquierda */
+    padding-right: 30px;
+}
+
+.timeline-dot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #2196F3; /* Azul */
+    border: 3px solid #e3f2fd; /* Borde más claro */
+    border-radius: 50%;
+    top: 25px; /* Ajusta la posición vertical del punto */
+    z-index: 1;
+}
+
+.timeline-item:nth-child(odd) .timeline-dot {
+    right: -10px; /* Posiciona el punto a la derecha del item izquierdo */
+}
+
+.timeline-item:nth-child(even) .timeline-dot {
+    left: -10px; /* Posiciona el punto a la izquierda del item derecho */
+}
+
+.timeline-content {
+    background-color: #f0f8ff; /* Fondo claro para el contenido */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    text-align: left;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-left: 5px solid #2196F3; /* Borde azul a la izquierda */
+}
+
+.timeline-item:nth-child(even) .timeline-content {
+    border-left: none; /* Elimina el borde de la izquierda para elementos de la derecha */
+    border-right: 5px solid #2196F3; /* Añade borde a la derecha */
+}
+
+
+.timeline-content h2 {
+    color: #1976d2; /* Azul más oscuro para el título */
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+}
+
+.timeline-content p {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.timeline-content .read-more {
+    display: inline-block;
+    background-color: #4CAF50; /* Verde para el botón */
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9em;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.timeline-content .read-more:hover {
+    background-color: #388e3c; /* Verde más oscuro al pasar el ratón */
+}
+
+.timeline-item:hover .timeline-content {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el ratón */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.12);
+}
+
+
+/* --- Modal Styles --- */
+.modal {
+    display: none; /* Oculto por defecto */
+    position: fixed; /* Permanece fijo en la pantalla */
+    z-index: 1001; /* Z-index alto para estar encima de todo */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Habilita el scroll si el contenido es muy largo */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo semi-transparente oscuro */
+    backdrop-filter: blur(5px); /* Efecto de desenfoque */
+    animation: fadeInModal 0.3s ease-out;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 8% auto; /* Centrar verticalmente */
+    padding: 30px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 700px;
+    position: relative;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    animation: slideInTop 0.4s ease-out;
+}
+
+.close-button {
+    color: #aaa;
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+.close-button:hover,
+.close-button:focus {
+    color: #333;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-content h2 {
+    color: #2196F3;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 2em;
+}
+
+.modal-content p {
+    font-size: 1.1em;
+    line-height: 1.7;
+    color: #444;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.modal-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animaciones del Modal */
+@keyframes fadeInModal {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideInTop {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .timeline-container {
+        margin: 20px auto;
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 2em;
+        margin-bottom: 30px;
+    }
+
+    .timeline::before {
+        left: 20px; /* Mueve la línea al lado izquierdo en móviles */
+    }
+
+    .timeline-item {
+        width: 100%;
+        padding: 0 0 20px 50px; /* Espacio para la línea y el punto */
+    }
+
+    .timeline-item:nth-child(even),
+    .timeline-item:nth-child(odd) {
+        left: 0; /* Todos los ítems a la izquierda */
+        padding-left: 50px; /* Ajuste para el punto */
+        padding-right: 0;
+    }
+
+    .timeline-dot {
+        left: 10px; /* Posiciona el punto en la nueva línea */
+        right: auto; /* Elimina la propiedad right */
+    }
+
+    .timeline-item:nth-child(even) .timeline-content {
+        border-right: none; /* Elimina el borde de la derecha */
+        border-left: 5px solid #2196F3; /* Vuelve al borde izquierdo */
+    }
+
+    .modal-content {
+        width: 95%;
+        margin: 5% auto;
+        padding: 20px;
+    }
+
+    .modal-content h2 {
+        font-size: 1.5em;
+    }
+
+    .modal-content p {
+        font-size: 1em;
+    }
+}
+ 
+.regresar {
+    padding: 12px 24px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Importa la fuente Roboto de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+.form-container {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+    padding: 40px;
+    text-align: center;
+    max-width: 700px;
+    width: 95%;
+    box-sizing: border-box; /* Incluye padding en el ancho */
+}
+
+.form-header {
+    margin-bottom: 35px;
+}
+
+.form-header h1 {
+    color: #0056b3; /* Azul vibrante */
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.form-header p {
+    color: #666;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.icon-gavel {
+    color: #e74c3c; /* Rojo para el icono del martillo */
+    margin-bottom: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon-gavel:hover {
+    transform: rotate(-10deg) scale(1.1);
+}
+
+.revolutionary-form {
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 25px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #444;
+    font-size: 1.05em;
+}
+
+.icon-field {
+    color: #0056b3; /* Color azul para los iconos de campo */
+    margin-right: 8px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ced4da; /* Borde suave */
+    border-radius: 8px; /* Bordes más redondeados */
+    font-size: 1em;
+    color: #555;
+    background-color: #f8f9fa; /* Fondo ligeramente gris */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-sizing: border-box; /* Incluye padding en el ancho */
+}
+
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #007bff; /* Borde azul al enfocar */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Sombra de enfoque */
+    outline: none; /* Elimina el contorno predeterminado del navegador */
+}
+
+.form-group textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+    min-height: 90px;
+}
+
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.radio-group input[type="radio"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Aumenta el tamaño del radio button */
+}
+
+.radio-group label {
+    margin-bottom: 0; /* Reinicia el margen inferior para los labels de radio */
+    font-weight: 400; /* Menos negrita para el texto de las opciones */
+}
+
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.checkbox-group input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2); /* Aumenta el tamaño del checkbox */
+}
+
+.checkbox-group label {
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #555;
+}
+
+
+.submit-button,
+.reset-button {
+    display: inline-block;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    text-align: center;
+    margin-right: 15px; /* Espacio entre botones */
+}
+
+.submit-button {
+    background-color: #28a745; /* Verde para enviar */
+    color: white;
+}
+
+.submit-button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+.reset-button {
+    background-color: #6c757d; /* Gris para resetear */
+    color: white;
+}
+
+.reset-button:hover {
+    background-color: #5a6268;
+    transform: translateY(-2px);
+}
+
+/* Estilos para iconos dentro de los botones */
+.submit-button .fas,
+.reset-button .fas {
+    margin-right: 8px;
+}
+
+/* Media Queries para Responsividad */
+@media (max-width: 768px) {
+    .form-container {
+        padding: 25px;
+    }
+
+    .form-header h1 {
+        font-size: 2em;
+    }
+
+    .form-group label {
+        font-size: 1em;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group select,
+    .form-group textarea {
+        padding: 10px 12px;
+        font-size: 0.95em;
+    }
+
+    .submit-button,
+    .reset-button {
+        width: 100%; /* Botones ocupan todo el ancho */
+        margin-right: 0;
+        margin-bottom: 15px; /* Espacio entre botones apilados */
+        padding: 10px 15px;
+        font-size: 1em;
+    }
+    
+    .submit-button:last-of-type,
+    .reset-button:last-of-type {
+        margin-bottom: 0; /* Quita el margen inferior del último botón */
+    }
+}
